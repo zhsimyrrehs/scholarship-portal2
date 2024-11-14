@@ -1,8 +1,35 @@
+/* src/components/ScholarshipList.css */
+.scholarship-container {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+}
+
+.filters {
+    flex: 1;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.filters label {
+    display: block;
+    margin: 10px 0;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
 .scholarship-list {
+    flex: 2;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding: 40px;
 }
 
 .scholarship-card {
