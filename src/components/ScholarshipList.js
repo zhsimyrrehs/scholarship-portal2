@@ -6,6 +6,7 @@ import './ScholarshipList.css';
 const scholarships = [
     { id: 1, title: "STEM Women Scholarship", description: "For women in STEM fields." },
     { id: 2, title: "Women in Business", description: "For aspiring business leaders." },
+    { id: 3, title: "Women in STEM", description: "For aspiring STEM leaders." },
     // Add more scholarship data as needed
 ];
 
