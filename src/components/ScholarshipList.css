@@ -19,10 +19,18 @@
 
 .search-bar {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    border: 1px solid #ddd;
+    max-width: 600px;
+    padding: 12px 20px;
+    margin: 20px 0;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.search-bar:focus {
+    outline: none;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 .scholarship-list {
@@ -48,3 +56,8 @@
 .scholarship-card p {
     color: #6e6e73;
 }
+
+
+
+
+
